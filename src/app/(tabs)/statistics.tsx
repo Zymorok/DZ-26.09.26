@@ -62,7 +62,7 @@ export default function StatisticsScreen() {
             <MaterialIcons name="sports-esports" size={28} color="#FFFFFF" />
           </View>
           <View style={styles.userInfo}>
-            <Text style={styles.userName}>{user?.name ?? "Гравець"}</Text>
+            <Text style={styles.userName}>Вітаємо, {user?.name ?? "гравцю"}!</Text>
             <Text style={styles.userEmail}>{user?.email ?? ""}</Text>
           </View>
           <TouchableOpacity
